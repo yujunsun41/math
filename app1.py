@@ -25,10 +25,10 @@ with col2:
 a = st.number_input('수를 입력하세요', value= 0)  
 
 # 버튼 생성 및 동작
-#if st.button('양수일까 ____일까?'):
-#       if a > 0:
-#              st.write('________')
-#       elif a < 0:
-#              st.write('________')
-#       else:
-#              st.write('________')
+#if st.button('양수일까 음수일까?'):
+       if a > 0:
+              st.write('양수')
+       elif a < 0:
+              st.write('음수')
+       else:
+              st.write('0')
